@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>採用サイト</title>
+    <style>
+        /* ベーススタイル */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        /* ナビゲーションバー */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+            padding: 10px 20px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .navbar .nav-links a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-size: 0.9em;
+        }
+
+        /* ヒーローセクション */
+        .hero {
+            position: relative;
+            background-image: url('豊田会長.jpg'); /* 背景画像を挿入 */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .hero h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1em;
+            max-width: 500px;
+            line-height: 1.6;
+        }
+
+        /* ボタンスタイル */
+        .hero .buttons {
+            margin-top: 20px;
+        }
+
+        .hero .button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #4CAF50;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 10px;
+            transition: background-color 0.3s ease;
+        }
+
+        .hero .button:hover {
+            background-color: #45a049;
+        }
+
+        /* 画像ギャラリーのスタイル */
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+        }
+
+        /* 各画像の個別スタイル */
+        .gallery-item {
+            display: block;
+            margin: 10px 0;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        #image1 {
+            width: 60%;
+        }
+
+        #image2 {
+            width: 60%;
+        }
+
+        #image3 {
+            width: 60%;
+        }
+
+        #image4 {
+            width: 60%;
+        }
+
+        #image5 {
+            width: 60%;
+        }
+
+        #image6 {
+            width: 60%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ナビゲーションバー -->
+    <div class="navbar">
+        <div class="logo">Japan, a Nation of Technology that Surprised Even the U.S.</div>
+        <div class="nav-links">
+            <a href="#">ホーム</a>
+            <a href="#">インフィールドとは</a>
+            <a href="#">仕事内容</a>
+            <a href="#">社風・環境</a>
+            <a href="#">評価・人事制度</a>
+            <a href="#">選考</a>
+            <a href="#">労働要項</a>
+            <a href="#" class="button">エントリー</a>
+        </div>
+    </div>
+
+    <!-- ヒーローセクション -->
+    <div class="hero">
+        <h1>活き活きと働ける仕事が<br>こんなところにありました</h1>
+        <p>企業向けイベント会場の提供と開催のお手伝いをする、インフィールドのカンファレンスコーディネーター。少し大変だけど、長く続けられる、楽しいお仕事です。</p>
+        <div class="buttons">
+            <a href="#" class="button">募集要項を確認する</a>
+            <a href="#" class="button">エントリーはこちら</a>
+        </div>
+    </div>
+
+    <!-- 画像ギャラリーセクション -->
+    <div class="gallery">
+        <img src="ガソリンエンジン.jpg" alt="画像1" class="gallery-item" id="image1">
+        <img src="トヨタアメリカ軍.jpg" alt="画像2" class="gallery-item" id="image2">
+        <img src="gtr_shanghai.jpg" alt="画像3" class="gallery-item" id="image3">
+        <img src="朝永振一郎.jpg" alt="画像2" class="gallery-item" id="image4">
+        <img src="山中伸弥.jpg" alt="画像3" class="gallery-item" id="image5">
+        <img src="nobelPrizeKyoto.jpg" alt="画像3" class="gallery-item" id="image6">
+        <!-- 必要に応じて画像を追加し、それぞれに異なるIDを設定 -->
+    </div>
+
+</body>
+</html>
